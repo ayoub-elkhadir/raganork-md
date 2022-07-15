@@ -33,12 +33,12 @@ Module({
   var myid = message.client.user.id.split(":")[0]
   var buttons = [{
     urlButton: {
-        displayText: 'Github',
+        displayText: 'موقعنا',
         url: 'https://github.com/souravkl11/raganork'
     }
 }, {
   urlButton: {
-    displayText: 'Contact Owner',
+    displayText: 'رقم هاتفي',
     url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
     }
 }, {
@@ -48,12 +48,12 @@ Module({
     }
 }, {
     quickReplyButton: {
-        displayText: 'All commands',
+        displayText: 'قائمة الأوامر ',
         id: 'commands'+myid
     }  
 }, {
     quickReplyButton: {
-        displayText: 'Support group',
+        displayText: 'رابط الجروب',
         id: 'support'+myid
     }
 }]
@@ -95,8 +95,8 @@ if (setarr[i].use === 'utility') {
 ┃❉│ Version: ${config.VERSION}
 ┃❉│
 ┃❉│
-┃❉│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃❉│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
+┃❉│  
+┃❉│  
 ┃❉│   ${BOT_INFO.split(";")[0]}
 ┃❉│ 
 ┃❉╰───────────────
