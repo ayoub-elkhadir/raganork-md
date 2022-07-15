@@ -38,7 +38,7 @@ Module({
     }
 }, {
   urlButton: {
-    displayText: 'Contact Owner',
+    displayText: 'رقم المالك',
     url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
     }
 }, {
@@ -48,12 +48,12 @@ Module({
     }
 }, {
     quickReplyButton: {
-        displayText: 'All commands',
+        displayText: 'القائمة',
         id: 'commands'+myid
     }  
 }, {
     quickReplyButton: {
-        displayText: 'Support group',
+        displayText: 'رابط الجروب',
         id: 'support'+myid
     }
 }]
@@ -85,7 +85,7 @@ if (setarr[i].use === 'utility') {
   var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃❉╭──────────────
 ┃❉│
-┃❉│ Owner : ${BOT_INFO.split(";")[1]}
+┃❉│ اسم  : ${BOT_INFO.split(";")[1]}
 ┃❉│ User : ${message.senderName}
 ┃❉│ Mode : ${MODE}
 ┃❉│ Server : ${config.HEROKU.APP_NAME}
@@ -95,8 +95,8 @@ if (setarr[i].use === 'utility') {
 ┃❉│ Version: ${config.VERSION}
 ┃❉│
 ┃❉│
-┃❉│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃❉│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
+┃❉│ 
+┃❉
 ┃❉│   ${BOT_INFO.split(";")[0]}
 ┃❉│ 
 ┃❉╰───────────────
@@ -108,7 +108,7 @@ if (setarr[i].use === 'utility') {
 ${gmsg}
 ┃❉╰─────────────────
 ╰══════════════════⊷❍
-╭════〘 Download 〙════⊷❍
+╭════〘 التنزيلات 〙════⊷❍
 ┃❉╭─────────────────
 ┃❉│ 
 ${dlmsg}
